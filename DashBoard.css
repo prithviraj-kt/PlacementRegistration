@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.DashboardRow{
+height: 100vh;
+}
+.DashboardRowEdit{
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.DashUpload{
+    background-color: rgb(177, 199, 255);
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.DashUpload:hover{
+    color: white;
+    background-color: blue;
+    transform: scale(1.1);
+}
