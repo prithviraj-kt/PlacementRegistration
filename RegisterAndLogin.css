@@ -1,0 +1,29 @@
+.RegistrationInputs{
+  padding: 30px;
+}
+.RegistrationInputs:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.RegistrationRouting{
+  background-color: white;
+  border: 0px;
+  margin: 0px;
+  color: rgb(115, 115, 255);;
+  transition: 0.2s;
+}
+.RegistrationRouting:hover{
+  color: blue;
+}
+.Login{
+  background-color: red;
+  height: 100vh;
+  width: 50%;
+}
+.loginInputs{
+  height: 70%;
+  background-color: blue;
+}
+.Registration{
+  box-shadow: 5px 10px 15px #888888;
+}

@@ -14,29 +14,66 @@
     />
   </head>
   <body>
-    <div class="container">
-      <div class="row my-5">
-        <center><h1>Login</h1></center>
-      </div>
-      <div class="row">
-        <center>
-          <div class="mb-3 row">
-            <label for="staticEmail" class="col-sm-2 col-form-label"
-              >Email</label
-            >
-            <div class="col-sm-10">
-                <input type="email" class="form-control" id="inputEmail" />
-              </div>
+    <div class="container px-1 px-md-5 px-lg-1 px-xl-5 py-5 mx-auto">
+        
+      <div class="card card0 border-0">
+          <div class="row my-2 text-muted">
+              <center>
+                  <h1>
+                      LOGIN
+                  </h1>
+              </center>
           </div>
-          <div class="mb-3 row">
-            <label for="inputPassword" class="col-sm-2 col-form-label"
-              >Password</label
-            >
-            <div class="col-sm-10">
-              <input type="password" class="form-control" id="inputPassword" />
+        <div class="row d-flex">
+          <div class="col-lg-6">
+            <div class="card1 pb-5">
+              <div
+                class="row px-5 justify-content-center mt-4 w-auto"
+              >
+                <img src="./Login.jpg" class="image" />
+              </div>
             </div>
           </div>
-        </center>
+          <div class="col-lg-6">
+            <div class="card2 card border-0 px-4 py-5">
+              <div class="row px-3">
+                <label class="mb-1">
+                  <h6 class="mb-0 text-muted text-sm">Email Address</h6>
+                </label>
+                <input
+                  class="mb-4"
+                  type="text"
+                  name="email"
+                  placeholder="Enter a valid email address"
+                />
+              </div>
+              <div class="row px-3">
+                <label class="mb-1">
+                  <h6 class="mb-0 text-muted text-sm">Password</h6>
+                </label>
+                <input
+                  type="password"
+                  name="password"
+                  placeholder="Enter password"
+                />
+              </div>
+
+              <div class="row my-3 px-3 ">
+                <button type="submit" class="btn btn-success text-center">
+                  Login
+                </button>
+              </div>
+              <div class="row mb-4 px-3">
+                <small class="font-weight-bold"
+                  >Don't have an account?
+                  <a class="text-primary" href="./Registration.html"
+                    >Register</a
+                  ></small
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
